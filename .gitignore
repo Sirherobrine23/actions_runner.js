@@ -1,0 +1,7 @@
+# Nodejs
+node_modules/
+/*lock*
+
+# Typescript
+src/**/*.js
+src/**/*.d.ts

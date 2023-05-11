@@ -1,0 +1,29 @@
+{
+  "name": "actions_runner",
+  "version": "1.0.0",
+  "description": "Github runner reewrite in typescript",
+  "type": "module",
+  "main": "src/index.js",
+  "author": "Matheus Sampaio Queiroga <srherobrine20@gmail.com>",
+  "license": "MIT",
+  "keywords": [
+    "github",
+    "actions",
+    "runner"
+  ],
+  "scripts": {
+    "prepack": "tsc --build --clean && tsc --build",
+    "postpack": "tsc --build --clean"
+  },
+  "devDependencies": {
+    "@types/node": "^20.1.2",
+    "@types/yargs": "^17.0.24",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.0.4"
+  },
+  "dependencies": {
+    "@sirherobrine23/http": "^3.6.11",
+    "yaml": "^2.2.2",
+    "yargs": "^17.7.2"
+  }
+}
